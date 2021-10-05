@@ -53,7 +53,7 @@ with_fx :reverb,room: 0.5 do
   use_bpm 64
   
   in_thread(name: :main) do
-    ##| 1
+    ##| Intro
     arpeggio [:C4, :E4, :G4], 0.5
     play_piano_note [:F4, :A4], 0.5
     play_piano_note [:A4, :C5], 0.5
@@ -69,26 +69,57 @@ with_fx :reverb,room: 0.5 do
     
     use_bpm 70
     
-    ##| 3
+    ##| 1
     arpeggio [:F4, :A4, :D5], 0.5
     play_piano_note [:D5], 1
     play_piano_note [:C5], 0.5
     arpeggio [:F4, :Ab4, :D5], 0.5
     play_piano_note [:D5], 1
-    play_piano_note [:D5], 0.5
+    play_piano_note [:C5], 0.5
     
+    
+    ##| 2
+    arpeggio [:E4, :G4, :E4, :D5], 0.5
+    play_piano_note [:C5], 0.5
+    play_piano_note [:B4], 0.5
+    play_piano_note [:A4], 0.25
+    play_piano_note [:G4], 0.25
+    arpeggio [:Cs4, :E4, :A4], 1.5
+    play_piano_note [:E4], 0.5
+    
+    ##| 3
+    play_piano_note [:C4,:F4], 0.66
+    play_piano_note [:E4,:A4], 0.66
+    play_piano_note [:F4,:C5], 0.66
+    arpeggio [:F4, :Ab4, :B4, :E5], 1.5
+    play_piano_note [:D5], 0.5
   end
   
   in_thread(name: :suport) do
     #4/4 Time
     
-    ##| 1
+    ##| Intro
     arpeggio [:D3], 2
     arpeggio [:G3,:F4,:A4], 2
     
-    ##| 3
+    ##| 1
     arpeggio [:D3,:C4], 2
     arpeggio [:D3,:B3], 2
+    
+    ##| ##| 2
+    arpeggio [:C3,:B3], 2
+    arpeggio [:A2,:G3], 2
+    
+    ##| 3
+    play_piano_note [:D3,:A3], 0.66
+    play_piano_note [:F3,:C4], 0.66
+    play_piano_note [:A3,:E4], 0.66
+    arpeggio [:G3], 1
+    play_piano_note [:G2], 1
+    
+    ##| 1
+    
+    ##| 1
   end
 end
 
