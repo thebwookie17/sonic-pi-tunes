@@ -77,13 +77,12 @@ with_fx :reverb,room: 0.5 do
     play_piano_note [:D5], 1
     play_piano_note [:C5], 0.5
     
-    
     ##| 2
     arpeggio [:E4, :G4, :E4, :D5], 0.5
     play_piano_note [:C5], 0.5
-    play_piano_note [:B4], 0.5
-    play_piano_note [:A4], 0.25
-    play_piano_note [:G4], 0.25
+    play_piano_note [:B4], 0.33
+    play_piano_note [:A4], 0.33
+    play_piano_note [:G4], 0.33
     arpeggio [:Cs4, :E4, :A4], 1.5
     play_piano_note [:E4], 0.5
     
@@ -93,6 +92,89 @@ with_fx :reverb,room: 0.5 do
     play_piano_note [:F4,:C5], 0.66
     arpeggio [:F4, :Ab4, :B4, :E5], 1.5
     play_piano_note [:D5], 0.5
+    
+    ##| 4
+    
+    ##| 5
+    
+    ##| 6
+    
+    ##| 7
+    
+    ##| 8
+    
+    ##| 9
+    
+    ##| 10
+    
+    ##| 11
+    
+    ##| 12
+    
+    ##| 13
+    
+    ##| 14
+    
+    ##| 15
+    
+    ##| 16
+    
+    ##| 17
+    
+    ##| 18
+    
+    ##| 19
+    
+    ##| 20
+    
+    ##| 21
+    
+    ##| 22
+    
+    ##| 23
+    
+    ##| 24
+    
+    ##| 25
+    
+    ##| 26
+    
+    ##| 27
+    
+    ##| 28
+    
+    ##| 29
+    
+    ##| 30
+    
+    ##| 31
+    
+    ##| 32
+    
+    ##| 33
+    
+    ##| 34
+    
+    ##| 35
+    
+    ##| 36
+    
+    ##| 37
+    
+    ##| 38
+    
+    ##| 39
+    
+    ##| 40
+    
+    ##| 41
+    
+    ##| 42
+    
+    ##| 43
+    
+    ##| 44
+    
   end
   
   in_thread(name: :suport) do
@@ -101,6 +183,8 @@ with_fx :reverb,room: 0.5 do
     ##| Intro
     arpeggio [:D3], 2
     arpeggio [:G3,:F4,:A4], 2
+    
+    use_bpm 70
     
     ##| 1
     arpeggio [:D3,:C4], 2
@@ -117,11 +201,124 @@ with_fx :reverb,room: 0.5 do
     arpeggio [:G3], 1
     play_piano_note [:G2], 1
     
-    ##| 1
+    ##| 4-5
+    2.times do
+      play_piano_note [:C3], 1
+      play_piano_note [:G3, :B3], 1
+      play_piano_note [:G2], 1
+      play_piano_note [:G3, :B3], 1
+    end
     
-    ##| 1
+    ##| 6
+    play_piano_note [:C3], 1
+    play_piano_note [:G3, :B3], 1
+    play_piano_note [:G2], 1
+    play_piano_note [:Eb2], 1
+    
+    ##| 7
+    play_piano_note [:D2], 1
+    play_piano_note [:F3, :A3], 1
+    play_piano_note [:D3, :G3], 1
+    play_piano_note [:G2], 1
+    
+    ##| 8
+    play_piano_note [:D2], 1
+    play_piano_note [:A3, :C4], 1
+    play_piano_note [:G2], 1
+    play_piano_note [:A3, :C4], 1
+    
+    ##| 9
+    play_piano_note [:G2], 1
+    play_piano_note [:F3, :B3], 1
+    play_piano_note [:D3], 1
+    play_piano_note [:F3, :B3], 1
+    
+    ##| 10
+    play_piano_note [:D2], 1
+    play_piano_note [:A3, :C4], 1
+    play_piano_note [:G2, :F3], 1
+    play_piano_note [:B2, :Ab3], 1
+    
+    ##| 11
+    play_piano_note [:C3, :G3], 1
+    play_piano_note [:Cs3, :G3], 1
+    play_piano_note [:D3, :A3], 1
+    play_piano_note [:G2, :F3], 1
+    
+    ##| 12- 13
+    2.times do
+      play_piano_note [:C3], 1
+      play_piano_note [:G3, :B3], 1
+      play_piano_note [:G2], 1
+      play_piano_note [:G3, :B3], 1
+    end
+    
+    ##| 14
+    play_piano_note [:C3], 1
+    play_piano_note [:G3, :B3], 1
+    play_piano_note [:G2], 1
+    play_piano_note [:Gb2], 1
+    
+    ##| 15
+    
+    ##| 16
+    
+    ##| 17
+    
+    ##| 18
+    
+    ##| 19
+    
+    ##| 20
+    
+    ##| 21
+    
+    ##| 22
+    
+    ##| 23
+    
+    ##| 24
+    
+    ##| 25
+    
+    ##| 26
+    
+    ##| 27
+    
+    ##| 28
+    
+    ##| 29
+    
+    ##| 30
+    
+    ##| 31
+    
+    ##| 32
+    
+    ##| 33
+    
+    ##| 34
+    
+    ##| 35
+    
+    ##| 36
+    
+    ##| 37
+    
+    ##| 38
+    
+    ##| 39
+    
+    ##| 40
+    
+    ##| 41
+    
+    ##| 42
+    
+    ##| 43
+    
+    ##| 44
   end
 end
 
 # ------------------------------------------------------------------------------------ #
-
