@@ -441,7 +441,7 @@ with_fx :reverb,room: 0.5 do
     play_piano_note [:Db3], 1
     play_piano_note [:Bb3, :F4, :Ab4], 1
     play_piano_note [:Eb3], 1
-    play_piano_note [Bb3:, :Eb4, :G4], 1
+    play_piano_note [:Bb3, :Eb4, :G4], 1
 
     ##| TREBBLE
     

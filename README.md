@@ -1,2 +1,1 @@
-# sonic-pi-tunes
-Sonic Pi Code
+# My Sonic Pi Tunes
